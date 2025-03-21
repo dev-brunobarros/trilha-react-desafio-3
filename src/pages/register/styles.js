@@ -42,7 +42,7 @@ export const Title = styled.h2`
     color: #FFFFFF;
 `
 
-export const TitleLogin = styled.p`
+export const TitleRegister = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -51,7 +51,7 @@ export const TitleLogin = styled.p`
     margin-bottom: 8px;
 `
 
-export const SubtitleLogin = styled.p`
+export const SubtitleRegister = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -61,17 +61,27 @@ export const SubtitleLogin = styled.p`
 `
 
 
-export const EsqueciText  = styled.p`
+export const HaveAccountText  = styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
 
-    color: #E5E044;
+    color: #FFFFFF;
 ` 
 
-export const CriarText =  styled.a`
+export const TermsText  = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+` 
+
+export const LoginButton=  styled.a`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
